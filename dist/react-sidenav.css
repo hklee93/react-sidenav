@@ -6,7 +6,7 @@
   left: 0;
   z-index: 1006;
   min-width: 64px;
-  background: #db3d44;
+  background: #f2f3f7;
   -webkit-transition: min-width 0.2s;
   -moz-transition: min-width 0.2s;
   -o-transition: min-width 0.2s;
@@ -105,9 +105,10 @@
 .sidenav---sidenav-toggle---1KRjR {
   position: relative;
   float: left;
-  width: 64px;
-  height: 64px;
+  width: 60px;
+  height: 50px;
   padding: 0;
+  padding-left: 4px;
   margin: 0;
   background-color: transparent;
   background-image: none;
@@ -187,6 +188,8 @@
   opacity: 0.2;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
   filter: alpha(opacity=20);
+  width: 200%;
+  margin-left: -50%;
 }
 .sidenav---sidenav-nav---3tvij > .sidenav---sidenav-navitem---uwIJ-.sidenav---highlighted---oUx9u.sidenav---expanded---1KdUL > .sidenav---navitem---9uL5T::after,
 .sidenav---sidenav-nav---3tvij > .sidenav---sidenav-navitem---uwIJ-:hover.sidenav---highlighted---oUx9u.sidenav---expanded---1KdUL > .sidenav---navitem---9uL5T::after {
@@ -310,7 +313,7 @@
   margin-bottom: 8px;
 }
 .sidenav---sidenav-subnav---1EN61 > .sidenav---sidenav-subnavitem---1cD47.sidenav---selected---1EK3y > .sidenav---navitem---9uL5T {
-  color: #db3d44;
+  color: #f2f3f7;
   font-weight: bold;
   background: none;
   cursor: default;
